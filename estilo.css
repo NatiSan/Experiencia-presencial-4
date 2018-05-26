@@ -2,17 +2,26 @@ body{
 		
 		font-family: 'Roboto', sans-serif; 
 		color: #3E423A;
-		top: 0px;
 		margin:0px 0px 0px 0px;
 
 			}
-	
-		#cuerpo1{
-			text-align: center;
-			margin: 0px 26%;
-			}
 
-		.cuerpo2{
+		.header{
+			background: url(images/bg.jpeg);
+			height: 450px;
+			left: 0px;
+			right: 0px;
+			position: relative;
+			top: 0px;
+			text-align: center;
+		}
+	
+		.section{
+			text-align: center;
+			padding: 0px 26%;
+		}
+
+		.article{
 			background-color: #eeeeee;
 			padding: 0px 22%;
 			text-align: center;
@@ -21,13 +30,31 @@ body{
 			border-right-style: none;
 			border-bottom-style: solid;
 			border-left-style: none;
+			height: 250px;
+		}
 
+		.article-2{
+			padding: 0px 26%;
+			text-align: left;
+			height: 200px;
+			
+		}
+
+		.footer{
+			background-color: #242622;
+			padding: 20px 15%;
+			text-align: left;
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+			margin: 0 auto;
+			overflow: hidden;
+			bottom: 0px;		
 			}
 
 		#cuerpo3{
 			text-align: left;
 			margin: 0px 9%;
-			}
+		}
 
 				
 		
@@ -61,19 +88,11 @@ body{
 		.parrafo3{
 			font-family: 'Roboto', sans-serif; 
 			color: white;
-			top: 60%
+			top: 6%
 			font-size: 14px;
 			}
 
-		.header{
-			background: url(images/bg.jpeg);
-			height: 350px;
-			left: 0px;
-			right: 0px;
-			position: relative;
-			top: 0px;
-			text-align: center;
-		}
+		
 
 		#logo{
 			height: 40px;
@@ -91,8 +110,9 @@ body{
 		     background: #428bca;
 		     border-radius: 10px 10px 10px 10px;
 		     color: white;
-		     margin: 0px center;
 		     text-align: center;
+		     align-items: center;
+
 
 		}
 
@@ -149,17 +169,9 @@ body{
 
 		.mail{
 			color: #4173A3;
+			font-size: 14px;
 
 		}
 
 
-		.pie{
-			background-color: #242622;
-			padding: 20px 15%;
-			text-align: left;
-			color: white;
-			font-family: 'Montserrat', sans-serif;
-			margin: 0 auto;
-			overflow: hidden;
-			bottom: 0px;		
-			}
+		
