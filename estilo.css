@@ -27,13 +27,14 @@ body{
 			text-align: left;
 			margin: 0px 9%;
 			}
-		.pie{background-color: #242622;
-			padding: 0px 10%;
+
+		.pie{
+			background-color: #242622;
+			padding: 20px 15%;
 			text-align: left;
-			;
-
-
-
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+		
 		}
 				
 		
@@ -51,6 +52,13 @@ body{
 			font-family: 'Roboto', sans-serif; 
 			color: #3E423A;
 			font-size: 12px
+
+			}
+
+			.parrafo2{
+			font-family: 'Roboto', sans-serif; 
+			color: #3E423A;
+			font-size: 16px
 
 			}
 
@@ -103,7 +111,6 @@ body{
 		     border: 1px solid #DADEB1;
 		     border-radius: 10px 10px 10px 10px;
 		     color: #3E423A;
-		     padding: auto;
 		     float: left;
 		}
 		.mail{
